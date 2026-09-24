@@ -1,52 +1,154 @@
 BODY {
+
     color: green;
-    background: white;
+
+    background-color: white;
+
 }
+
 
 H1, H2, H3, H4, H5, H6 {
+
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
-ADDRESS {
-    font-size: 0.9em;
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-BLOCKQUOTE {
-    background-color: silver;
-}
-
-UL {
-    list-style: circle url(Apple.jpg) outside;
-}
-
-UL B {
-    color: rgb(155, 0, 0);
-}
 
 A {
+
     font-size: 0.9em;
-    color: green;
+
+    color: blue;
+
+    text-decoration: none;
+
 }
+
 
 A:hover {
+
     color: red;
+
     text-transform: uppercase;
+
     font-weight: bold;
+
 }
+
+
+UL {
+
+    list-style: circle url('Apple.jpg') outside;
+
+    padding-left: 40px;
+
+}
+
+
+UL B {
+
+    color: rgb(155, 0, 0);
+
+}
+
 
 .Special {
+
     color: rgb(153, 102, 6);
+
     font-weight: bold;
+
 }
 
+
 DIV.Article {
+
     padding: 0.5em;
+
     border-style: solid;
+
     border-width: 2px;
+
     background-color: rgb(252, 221, 163);
+
     width: 250px;
+
     float: right;
+
+    margin-left: 15px;
+
+    margin-bottom: 15px;
+
+}
+
+
+DIV.Article img {
+
+    width: 100%;
+
+    margin: 5px 0;
+
+}
+
+
+BLOCKQUOTE {
+
+    background-color: silver;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.Brenda {
+
+    text-align: left;
+
+    margin-top: 0;
+
+}
+
+
+ADDRESS {
+
+    font-size: 0.9em;
+
+    font-style: normal;
+
+    text-align: left;
+
+    text-transform: uppercase;
+
+}
+
+
+/* ========================= */
+/* KHUNG TRANG MAXWELL       */
+/* ========================= */
+
+#page {
+
+    width: 650px;
+
+    margin: auto;
+
+    border: 2px solid blue;
+
+    padding: 8px;
+
+    box-sizing: border-box;
+
+}
+
+
+/* ========================= */
+/* KHOẢNG CÁCH VỚI MENU      */
+/* ========================= */
+
+#menu-container {
+
+    margin-bottom: 10px;
+
 }
